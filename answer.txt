@@ -1,0 +1,20 @@
+var PI = 3.14;
+PI = 42; // stop me from doing this!
+
+// Rewrite so it doesnt do that:
+
+const PI = 3.14
+
+Quiz!
+
+1. What is the difference between var and const?
+    - var can be redeclared and reassigned. Var can also be used to access a hoisted variable. let cannot be redeclared and it creates a block space.
+
+2. What is the difference between var and const?
+    - const cannot be redeclared or a value cannot be reassigned to const, where as var can do both of those things. You can access a hoisted variablke with var and like let, const creates a block space.
+
+3. What is the difference between let and const?
+    - You can reassign with let but you cant reassign or redeclare with const.
+
+4. What is hoisting?
+    - Variable hoisting is a behavior in JavaScript where variables declared with the 'var' keyword are moved to the top of their scope (either the global scope or the function scope) and initialized with a value of 'undefined' before any code execution takes place. This means that you can use a variable before it has been declared in your code, and JavaScript will not throw an error.
